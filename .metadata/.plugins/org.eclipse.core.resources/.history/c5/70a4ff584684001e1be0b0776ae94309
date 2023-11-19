@@ -1,0 +1,5 @@
+package com.ninjademo.qa.Pages;
+
+public class RegisterPage {
+
+}

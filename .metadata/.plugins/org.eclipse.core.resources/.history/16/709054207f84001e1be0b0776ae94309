@@ -1,0 +1,15 @@
+<suite name="test1" verbose="1">
+	<test name="POMFramework">
+		<classes>
+
+
+			<class name="com.ninja.qa.TestPages.HomePageTest"></class>
+			<class name="com.ninja.qa.TestPages.TestRegisterPage"></class>
+
+
+		</classes>
+
+	</test>
+
+
+</suite>

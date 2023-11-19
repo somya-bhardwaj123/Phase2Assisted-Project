@@ -1,0 +1,23 @@
+package com.ninjademo.qa.Base;
+
+import java.time.Duration;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class TestBase {
+	
+	//Base class indicates the driver session and Application details
+	
+	public static WebDriver driver;
+	
+	public static void openBrowser() {
+		
+		driver = new ChromeDriver();
+		
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+		driver.get("https://tutorialsninja.com/demo/");
+		}
+
+}

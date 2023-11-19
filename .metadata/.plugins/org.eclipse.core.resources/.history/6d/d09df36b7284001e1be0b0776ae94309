@@ -1,0 +1,5 @@
+package com.ninjademo.qa.Utilities;
+
+public class Xls_DataProvider {
+
+}

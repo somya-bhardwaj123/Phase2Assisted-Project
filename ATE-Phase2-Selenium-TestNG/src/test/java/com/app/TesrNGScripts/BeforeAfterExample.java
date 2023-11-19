@@ -1,0 +1,39 @@
+package com.app.TesrNGScripts;
+
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+public class BeforeAfterExample {
+	
+	@BeforeMethod
+	public void login() {
+		
+		System.out.println("Open the Browser");
+		System.out.println("Login into gmail");
+	}
+	@Test(priority='2')
+	public void ComposeEmail() {
+		
+		System.out.println("Steps compose the email");
+	
+	}
+	@Test(priority='3')
+	public void SearchEmail() {
+		
+		System.out.println("Steps to search the emails");
+		
+	}
+	@Test(priority='4')
+	public void DeleteEmail() {
+		
+		System.out.println("Steps to Delete the emails");
+		
+	}
+	@Test(priority='5')
+	public void logout() {
+		
+		System.out.println("Logout from the gmail");
+		System.out.println("Close the Browser");
+	}
+
+}

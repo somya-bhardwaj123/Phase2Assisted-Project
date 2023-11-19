@@ -1,0 +1,21 @@
+package testScenario1;
+
+public class Sample2 {
+	
+	public void opentheAccountpage() {
+		System.out.println("Open the browser and open Account page");
+	}
+	
+	public void login() {
+		System.out.println("Login into account page");
+	}
+	
+	public void Accounts() {
+		System.out.println("Check Account page");
+	}
+	
+	public void Logouts() {
+		System.out.println("Logout successfully");
+	}
+
+}

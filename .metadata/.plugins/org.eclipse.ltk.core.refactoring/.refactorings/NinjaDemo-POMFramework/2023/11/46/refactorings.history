@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;TestNGRunner.xml&apos; to &apos;NinjaDemo-POMFramework/src/test/resources&apos;&#x0D;&#x0A;- Original project: &apos;NinjaDemo-POMFramework&apos;&#x0D;&#x0A;- Destination element: &apos;NinjaDemo-POMFramework/src/test/resources&apos;&#x0D;&#x0A;- Original element: &apos;TestNGRunner.xml&apos;" description="Copy file" destination="/src\/test\/resources=/maven.pomderived=/true=/=/test=/true=/=/optional=/true=/" element1="src/test/java/com/ninjademo/qa/TestNGXmls/TestNGRunner.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1700139767029" units="0" version="1.0"/>
+</session>
